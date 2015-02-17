@@ -1,7 +1,7 @@
 {
   "name": "hubot-script-scripts",
   "description": "A script for Hubot script development",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": {
     "name": "bouzuya",
     "mail": "m@bouzuya.net",
