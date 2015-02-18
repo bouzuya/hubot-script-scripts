@@ -1,3 +1,7 @@
 #!/bin/sh
 
-../hubot-script-scripts/node_modules/.bin/gulp --gulpfile ../hubot-script-scripts/gulpfile.coffee $@
+hss_root='./node_modules/hubot-script-scripts'
+gulp="${hss_root}/node_modules/.bin/gulp"
+gulpfile="${hss_root}/gulpfile.coffee"
+${gulp} --gulpfile ${gulpfile} --cwd . $@
+
